@@ -9,22 +9,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "auto-tab-on-enter.onEnter",
-        "title": "Auto Tab on Enter"
-      }
-    ],
-    "keybindings": [
-      {
-        "command": "auto-tab-on-enter.onEnter",
-        "key": "enter",
-        "when": "editorTextFocus"
-      }
-    ],
     "languages": [
       {
         "id": "dr",
